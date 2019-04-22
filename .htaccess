@@ -1,0 +1,12 @@
+Options -Indexes
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^blog/(.*)$ post.php?&slug=$1 [L]
+RewriteRule ^podcast/(.*)$ episode.php?&slug=$1 [L]
+RewriteRule ^post/tag/(.*)$ tag.php?&tag=$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [L]

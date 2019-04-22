@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #485d6f;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+hr {
+	border-color: #E6E6E6;
+}
+
+.container {
+	height: 100vh;
+	position: relative;
+	font-family: 'Courier', serif;
+	color: #485d6f;
+}
+
+.maincontainer {
+	min-height: 100vh;
+	position: relative;
+	font-family: 'Courier', serif;
+	color: #000;
+}
+
+.isi {
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.mainisi {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	color: rgb(87, 87, 87);
+	font-family: 'IBM Plex Serif', serif;
+}
+
+.headerhome {
+	margin-bottom: 2px;
+}
+
+.tagline {
+	margin-bottom: 20px;
+}
+
+.homemenu {
+	margin-bottom: 20px;
+}
+
+.homemenu ul {
+	list-style-type: none;
+}
+
+.homemenu li {
+	margin-bottom: 5px;
+}
+
+.homelink {
+	font-family: 'Courier', serif;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+.homelinkblog {
+	font-family: 'Courier', serif;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.aftertitle {
+	font-weight: bold;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	letter-spacing: 0.3rem;
+}
+
+.aftertitle a {
+	color: orange;
+}
+
+.artikel {
+	margin-bottom: 50px;
+}
+
+.content {
+	word-spacing: 2px;
+	letter-spacing: .00836rem;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+}
+
+.tagTitle {
+	background-color: #E6E6E6;
+	text-align: right;
+}
+
+.framePodcast {
+	background-color: #E6E6E6;
+}
+
+.listepisodes {
+	font-size: 0.90em;
+	margin-bottom: 10px;
+}
+
+.captionpodcast {
+	margin-top: 5px;
+}
+
+.inputtext {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 2px;
+}
+
+.prevnext {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.footerhome {
+	font-size: 0.75em;
+	color: grey; 
+}
+
+.mainfooter {
+	margin-top: 50px;
+	margin-bottom: 10px;
+	font-size: 0.75em;
+	color: grey;
+}
+
+/*kalau kecil*/
+@media screen and (max-width: 880px){
+
+	.isi {
+		margin: 0;
+		top: 50%;
+		left: 50%;
+		-ms-transform: translate(-50%, -50%);
+		transform: translate(-50%, -50%);
+		position: absolute;
+	}
+
+	.mainisi {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+		color: rgb(87, 87, 87);
+		font-family: 'IBM Plex Serif', serif;
+	}
+
+	.footerhome {
+		font-size: 0.7rem;
+	}
+
+	.aftertitle {
+		margin-top: 1.5rem;
+		margin-bottom: 1rem;
+		letter-spacing: 0.1rem;
+	}
+
+	.title {
+		font-size: 0.9rem;
+	}
+
+	.content {
+		word-spacing: 1px;
+		letter-spacing: .00836rem;
+		font-size: 1.1rem;
+		line-height: 1.8rem;
+	}
+
+}

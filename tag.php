@@ -12,7 +12,7 @@ if(isset($_GET['tag'])){
 
 <div class="homelink">
 	<p><a href="<?=BASEURL;?>">&lt; home</a></p>
-	<p><a href="../../blog">&lt; blog</a> | <a href="postlist">list of posts</a></p>
+	<p><a href="../../blog">&lt; blog</a> | <a href="../../postlist">list of posts</a></p>
 </div>
 
 <div class="tagTitle">
@@ -55,7 +55,7 @@ if ($readtime >= 1)
 <?php endwhile; ?>
 
 <div class="homelink">
-	<p><a href="../../blog">&lt; list of posts</a></p>
+	<p><a href="../../blog">&lt; blog</a> | <a href="../../postlist">list of posts</a></p>
 	<p><a href="<?=BASEURL;?>">&lt; home</a></p>
 </div>
 

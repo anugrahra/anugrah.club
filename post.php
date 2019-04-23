@@ -37,7 +37,7 @@ if ($readtime >= 1)
 
 <div class="homelink">
 	<p><a href="<?=BASEURL;?>">&lt; home</a></p>
-	<p><a href="../blog">&lt; blog</a> | <a href="postlist">list of posts</a></p>
+	<p><a href="../blog">&lt; blog</a> | <a href="../postlist">list of posts</a></p>
 </div>
 
 <div class="artikel">
@@ -67,7 +67,7 @@ if ($readtime >= 1)
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 <div class="homelink">
-	<p><a href="../blog">&lt; list of posts</a></p>
+	<p><a href="../blog">&lt; blog</a> | <a href="../postlist">list of posts</a></p>
 	<p><a href="<?=BASEURL;?>">&lt; home</a></p>
 </div>
 

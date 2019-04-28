@@ -40,7 +40,11 @@ while ($podcastDepan = mysqli_fetch_assoc($episodes)){
 
 <br>
 
-<center><h1>List of Episodes</h1></center>
+<center>
+	<p>Listen on <a href="https://open.spotify.com/show/7CXYFUB7c8vx1OqYCSihaC" style="text-decoration: underline;">Spotify</a> | <a href="https://itunes.apple.com/us/podcast/dekadensiotak/id1438352066?mt=2&uo=4" style="text-decoration: underline;">Apple Podcasts</a></p>
+	<h1>List of Episodes</h1>
+</center>
+
 <br>
 
 <?php while($row = mysqli_fetch_assoc($episodesLimit)): ?>

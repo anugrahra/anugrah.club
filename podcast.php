@@ -33,7 +33,7 @@ while ($podcastDepan = mysqli_fetch_assoc($episodes)){
 </div>
 
 <div class="framePodcast">
-	<iframe src="<?=$anchor;?>" height="102px" width="100%" frameborder="0" scrolling="no"></iframe>
+	<iframe src="<?=$anchor;?>" height="150px" width="100%" frameborder="0" scrolling="no"></iframe>
 	<center><p><?=$caption;?></p></center>
 	<br>
 </div>

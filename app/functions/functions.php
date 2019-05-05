@@ -106,7 +106,7 @@ function hapusTulisan($id){
 function tampilkanPodcast() {
 	global $linkpodcast;
 
-	$query = "SELECT * FROM episode";
+	$query = "SELECT * FROM episode ORDER BY id ASC";
 	$result = mysqli_query($linkpodcast, $query) or die ('gagal nampilin data podcast');
 
 	return $result;

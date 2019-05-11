@@ -13,7 +13,7 @@ require_once "app/templates/header.php";
 		<p>dekadensiotak.wordpress.com</p>
 	</a>
 </div>
-<p class="content">A wordpress blog contains my thoughts mostly about books I've read.</p>
+<p class="content">Blog Wordpress yang telah aku buat sekitar tahun 2011. Konten lamanya banyak yang kuhapus karena aku anggap terlalu norak.</p>
 
 <br>
 
@@ -23,7 +23,7 @@ require_once "app/templates/header.php";
 		<p>goodreads.com/dekadensiotak</p>
 	</a>
 </div>
-<p class="content">My goodreads page where you can track books I curently reading.</p>
+<p class="content">Halaman goodreads dimana kamu bisa lihat buku apa yang sedang kubaca.</p>
 
 <br>
 
@@ -33,7 +33,17 @@ require_once "app/templates/header.php";
 		<p>issuu.com/dekadensiotak</p>
 	</a>
 </div>
-<p class="content">Write a book is one of my dream. I know it's not easy. To fulfill my thirst of writing a book, I made several zines. The content is about anything, random thoughts. Literally random.</p>
+<p class="content">Menulis buku adalah salah satu mimpiku. Karena aku tahu itu susah sekali terealisasi karena kemalasan dan ketidak-percayaan-diri, maka aku mencoba membuat zine demi menghilangkan sediit dahaga akan keinginan mewujudkan mimpi itu. Isinya random aja suka-suka gueh.</p>
+
+<br>
+
+<div class="title">
+	<a href="https://github.com/anugrahra">
+		<h1>Github</h1>
+		<p>github.com/anugrahra</p>
+	</a>
+</div>
+<p class="content">Aku membagikan kode-kode cemenku di sini. Silahkan dikunjungi kalau penasaran secemen apa kode yang aku buat.</p>
 
 <br>
 
@@ -53,7 +63,7 @@ require_once "app/templates/header.php";
 		<p>instagram.com/anugrahrrr</p>
 	</a>
 </div>
-<p class="content">Sometimes, I share my coding progress in here.</p>
+<p class="content">Akun instagram. Apa lagi?</p>
 
 <br>
 

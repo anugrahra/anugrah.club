@@ -10,6 +10,7 @@
 	<meta name="twitter:description" content="Anugrah Ramadhan Personal Website">
 	<meta name="twitter:site" content="@dekadensiotak">
 	<meta name="twitter:creator" content="@dekadensiotak">
+	<link href="favicon.ico" rel="shortcut icon">
 	<link rel="stylesheet" href="<?=CSS;?>">
 </head>
 <body>

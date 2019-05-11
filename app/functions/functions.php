@@ -16,15 +16,19 @@ function sistem_login($username, $password){
 	$username = escape($username);
 	$password = escape($password);
 
-	$query = "SELECT * FROM akun WHERE username = '$username' AND password = '$password'";
 	global $link;
 
+	$query = "SELECT * FROM akun WHERE username = '$username'";
+
 	if($result = mysqli_query($link, $query)){
-		if(mysqli_num_rows($result) > 0 ){
-			$row_akun = mysqli_fetch_array($result);
-			$_SESSION['id'] = $row_akun['id'];
-			$_SESSION['user'] = $row_akun['username'];
-			header('location: admin/home.php');
+		if(mysqli_num_rows($result) === 1 ){
+			$row_akun = mysqli_fetch_assoc($result);
+			if(password_verify($password, $row_akun['password'])){
+				$_SESSION['id'] = $row_akun['id'];
+				$_SESSION['user'] = $row_akun['username'];
+				header('location: admin/home.php');
+				exit;
+			}
 		}else{
 			echo "Username / Password yang anda masukkan salah";
 		}

@@ -8,23 +8,30 @@ require_once "app/templates/header.php";
 </div>
 
 <div class="title">
-	<h1><a href="https://anugrah.club/theroom/kalkulatoripa">Water Treatment Plant (WTP) Calculator</a></h1>
+	<h1><a href="https://anugrahra.github.io/kalipa">Kalkulator Instalasi Pengolahan Air (IPA) - JS</a></h1>
 </div>
-<p class="content">Many water treatment companies in Indonesia are operated manually. I developed this simple calculator to help WTP operator or laboratory man to calculate chemical dosage.</p>
+<p class="content">Masih banyak pengolahan air minum di Indonesia yang masih manual. Maka, aku membuat kalkulator ini buat orang-orang laboratorium, operator IPA, dan siapapun yang bergerak di ranah pengolahan air biar kagak ngotrat-ngotret lagi.</p>
+
+<br>
+
+<div class="title">
+	<h1><h1><a href="https://anugrah.club/theroom/kalkulatoripa">Kalkulator Instalasi Pengolahan Air (IPA) - PHP</a></h1>
+</div>
+<p class="content">Sama kayak kalkulator di atas, cuman ini versi awalnya yang pakai PHP. Versi tidak lengkap.</p>
 
 <br>
 
 <div class="title">
 	<h1><a href="https://anugrah.club/uptam01">Sistem Informasi Pelayanan Pengaduan Pelanggan UPT Air Minum Kota Cimahi</a></h1>
 </div>
-<p class="content">This is a website which customers can send their complain regarding services of UPT Air Minum Kota Cimahi.</p>
+<p class="content">Ini adalah website dimana customer bisa mengirimkan aduan mengenai pelayanan UPT Air Minum Kota Cimahi.</p>
 
 <br>
 
 <div class="title">
 	<h1><a href="https://anugrah.club/sisgud">Sistem Informasi Gudang</a></h1>
 </div>
-<p class="content">Information system for stockroom-man.</p>
+<p class="content">Ya ini mah sistem informasi untuk orang gudang.</p>
 
 <br><br>
 

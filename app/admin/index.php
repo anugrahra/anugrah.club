@@ -1,9 +1,9 @@
 <?php 
 session_start();
-require_once "core/config.php";
-require_once "templates/header.php";
-require_once "db/db.php";
-require_once "functions/functions.php";
+require_once "../core/config.php";
+require_once "../templates/header.php";
+require_once "../db/db.php";
+require_once "../functions/functions.php";
 
 if( isset($_COOKIE['login']) && isset($_COOKIE['loginus']) ){
 	$login = $_COOKIE['login'];
@@ -69,4 +69,4 @@ if(isset($_POST['submit'])){
 	<p><a href="<?=BASEURL;?>">&lt; home</a></p>
 </div>
 
-<?php require_once	"templates/footer.php";?>
+<?php require_once	"../templates/footer.php";?>

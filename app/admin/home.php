@@ -1,6 +1,7 @@
 <?php
 require_once "../templates/headerhome.php";
 session_start();
+if(!isset($_SESSION['id'])) header('location: ../adminadminan.php');
 ?>
 
 <div class="homelink">

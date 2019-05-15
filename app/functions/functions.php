@@ -12,7 +12,7 @@ function excerpt($string){
 	return $string . "...";
 }
 
-function sistem_login($username, $password){
+function sistem_login($username, $password, $remember = ''){
 	$username = escape($username);
 	$password = escape($password);
 
@@ -24,9 +24,17 @@ function sistem_login($username, $password){
 		if(mysqli_num_rows($result) === 1 ){
 			$row_akun = mysqli_fetch_assoc($result);
 			if(password_verify($password, $row_akun['password'])){
+				
+				$_SESSION['login'] = true;
 				$_SESSION['id'] = $row_akun['id'];
 				$_SESSION['user'] = $row_akun['username'];
-				header('location: admin/home.php');
+
+				if ( $remember == 'on') {
+					setcookie('login', $row_akun['id'], time() + 60);
+					setcookie('loginus', hash('sha256', $row_akun['username']), time() + 60);
+				}
+
+				header('location: home.php');
 				exit;
 			}
 		}else{

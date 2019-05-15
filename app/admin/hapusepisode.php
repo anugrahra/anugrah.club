@@ -4,7 +4,10 @@ require_once "../db/dbpodcast.php";
 require_once "../functions/functions.php";
 
 session_start();
-if(!isset($_SESSION['id'])) header('location: ../adminadminan.php');
+if(!isset($_SESSION['id'])){
+	header('location: ../adminadminan.php');
+	exit;
+}
 
 $id = $_GET['id'];
 
